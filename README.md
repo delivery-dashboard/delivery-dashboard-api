@@ -14,3 +14,7 @@ Then, from the command line, run:
 Open the application in:
 
     http://localhost:3000
+
+To run the tests, run:
+
+    bundle exec rspec
