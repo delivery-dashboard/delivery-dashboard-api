@@ -1,6 +1,6 @@
 You need:
 
-* Ruby 2.1.0 and Rubygems
+* Ruby 2.1.0
 * Bundler gem
 
 Then, from the command line, run:
