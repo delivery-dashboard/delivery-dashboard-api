@@ -1,10 +1,10 @@
-class CreateStatuses < ActiveRecord::Migration
+class CreateReports < ActiveRecord::Migration
   def change
-    create_table :statuses do |t|
+    create_table :reports do |t|
       t.references :period, index: true
       t.references :criteria, index: true
       t.references :project, index: true
-      t.string :status
+      t.string :situation
       t.text :comments
       t.timestamps
     end

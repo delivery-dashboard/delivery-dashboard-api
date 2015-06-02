@@ -33,18 +33,18 @@ ActiveRecord::Schema.define(version: 20150529182611) do
     t.datetime "updated_at"
   end
 
-  create_table "statuses", force: true do |t|
+  create_table "reports", force: true do |t|
     t.integer  "period_id"
     t.integer  "criteria_id"
     t.integer  "project_id"
-    t.string   "status"
+    t.string   "situation"
     t.text     "comments"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "statuses", ["criteria_id"], name: "index_statuses_on_criteria_id"
-  add_index "statuses", ["period_id"], name: "index_statuses_on_period_id"
-  add_index "statuses", ["project_id"], name: "index_statuses_on_project_id"
+  add_index "reports", ["criteria_id"], name: "index_reports_on_criteria_id"
+  add_index "reports", ["period_id"], name: "index_reports_on_period_id"
+  add_index "reports", ["project_id"], name: "index_reports_on_project_id"
 
 end

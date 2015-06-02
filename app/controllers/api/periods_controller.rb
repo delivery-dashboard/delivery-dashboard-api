@@ -1,4 +1,4 @@
-class Api::PeriodsController < ApplicationController
+class Api::PeriodsController < Api::BaseController
   
   respond_to :json
 

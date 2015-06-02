@@ -1,8 +1,8 @@
 FactoryGirl.define do
-  factory :status do
+  factory :report do
     association :criteria
     association :project
     association :period
-    status Status::ALLOWED_STATUSES.sample
+    situation Report::ALLOWED_SITUATIONS.sample
   end
 end

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+  <title>Delivery Dashboard</title>
+</head>
+<body>
+
+  <h1>Hello {{yourName}}!</h1>
+  <p>AngularJS is already here. Try below:</p>
+  <input type="text" ng-model="yourName" placeholder="Enter your name here">
+  <p>The following endpoints are available:</p>
+  <pre>
+    
+            Prefix Verb   URI Pattern                                   Controller#Action
+              root GET    /                                             application#home
+api_period_reports GET    /api/periods/:period_id/reports(.:format)     api/reports#index
+                   POST   /api/periods/:period_id/reports(.:format)     api/reports#create
+ api_period_report PATCH  /api/periods/:period_id/reports/:id(.:format) api/reports#update
+                   PUT    /api/periods/:period_id/reports/:id(.:format) api/reports#update
+       api_periods GET    /api/periods(.:format)                        api/periods#index
+                   POST   /api/periods(.:format)                        api/periods#create
+        api_period DELETE /api/periods/:id(.:format)                    api/periods#destroy
+      api_projects GET    /api/projects(.:format)                       api/projects#index
+       api_project GET    /api/projects/:id(.:format)                   api/projects#show
+  </pre>
+
+  <p>:)</p>
+
+</body>
+</html>

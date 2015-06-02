@@ -1,4 +1,4 @@
-class Api::ProjectsController < ApplicationController
+class Api::ProjectsController < Api::BaseController
   
   respond_to :json
   before_filter :load_project, only: [:show, :destroy]
