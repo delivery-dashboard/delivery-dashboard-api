@@ -12,6 +12,7 @@ gem 'factory_girl_rails'
 gem 'simplecov'
 gem 'rubocop'
 gem 'angularjs-rails'
+gem 'rack-cors', require: 'rack/cors'
 # gem 'turbolinks'
 # gem 'jbuilder', '~> 2.0'
 # gem 'sdoc', '~> 0.4.0',          group: :doc
