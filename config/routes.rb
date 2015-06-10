@@ -5,5 +5,6 @@ Rails.application.routes.draw do
       resources :reports, only: [:index, :create, :update]
     end
     resources :projects, only: [:index, :show]
+    resources :criterias, only: [:index]
   end
 end
