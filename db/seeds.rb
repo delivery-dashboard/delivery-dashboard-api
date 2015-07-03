@@ -13,7 +13,7 @@ end
 
 10.times do |i|
   Criteria.create({
-    name: "Critério #{i + 1}",
+    description: "Critério #{i + 1}",
     ordering: i
   })
 end

@@ -21,6 +21,7 @@ gem 'thin'
 gem 'dotenv-rails'
 gem 'spring', group: :development
 gem 'pg', group: :production
+gem 'pact'
 
 # gem 'turbolinks'
 # gem 'jbuilder', '~> 2.0'
