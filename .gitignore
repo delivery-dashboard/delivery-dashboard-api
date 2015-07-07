@@ -17,4 +17,5 @@
 coverage
 .vagrant/
 cookbooks/
+**.iml
 .env
