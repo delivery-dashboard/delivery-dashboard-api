@@ -19,3 +19,4 @@ coverage
 cookbooks/
 **.iml
 .env
+reports/
