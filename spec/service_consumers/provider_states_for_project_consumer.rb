@@ -4,7 +4,7 @@ Pact.provider_states_for 'Projects Consumer' do
     set_up do
       Project.destroy_all
       Project.create(name: "P1")
-      # Project.create(name: "P2")
+      Project.create(name: "P2")
       # Create a thing here using your framework of choice
       # eg. Sequel.sqlite[:somethings].insert(name: "A small something")
     end
