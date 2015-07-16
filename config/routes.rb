@@ -4,7 +4,7 @@ Rails.application.routes.draw do
     resources :periods, only: [:index, :create, :destroy] do
       resources :reports, only: [:index, :create, :update]
     end
-    resources :projects, only: [:index, :show]
+    # resources :projects, only: [:index, :show]
     resources :criterias, only: [:index]
   end
 end
